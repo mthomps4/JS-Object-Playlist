@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+body {
+    background: #ECEEEF;
+    text-align: center;
+    margin: 100px auto;
+    width: 80%;
+    padding: 0 40px;
+    font: 14px normal 'Varela Round', Helvetica, serif;
+}
+
+h1 {
+    font-size: 2em;
+    color:lime;
+    padding-bottom:15px;
+}
+
+div {
+    background: black;
+    border-radius: 4px;
+    padding:20px;
+    margin: -40px 0 0;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    background:white;
+    margin: 0 0;
+    width: 100%;
+    display: inline-block;
+    margin-bottom:15px;
+}
+
+
+li {
+    color: #2C3238;
+    width: 96%;
+    padding: 15px 2%;
+    margin: 0;
+    text-align: left;
+    border-top: 1px solid #D5DDE4;
+}
+
+li span {
+    float: right;
+    color: #777B7E;
+}
+
+
+li.current {
+    background:  #99ccff;
+}
+
+li:hover {
+    transition:.3s;
+    background:#b3d9ff;
+}
+
+button:hover{
+    background:#99ccff;
+    transition: .1s; 
+    transform: scale(1.05);
+}
+
+button {
+    margin:10px;
+    padding:10px 35px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    
+}
